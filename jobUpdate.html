@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Jobs Information</title>
+    <link rel="stylesheet" href="./OtherPage.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="jobUpdate.php" method="post">
+            <h1>Job Information Update</h1>
+            <div class="input-control">
+                <label for="id">Job ID</label>
+                <input id="id" name="id" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="title">Job Title</label>
+                <input id="title" name="title" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="minSalary">Minimum Salary</label>
+                <input id="minSalary" name="minSalary" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="maxSalary">Maximum Salary</label>
+                <input id="maxSalary" name="maxSalary" type="text">
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Update Job Information</button>
+            <button type="reset">Reset Input</button>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Department Information</title>
+    <link rel="stylesheet" href="./OtherPage.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="depUpdate.php" method="post">
+            <h1>Department Information Update</h1>
+            <div class="input-control">
+                <label for="id">Department ID</label>
+                <input name="id" id="id" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="name">Department Name</label>
+                <input id="name" name="name" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="locationId">Location ID</label>
+                <input id="locationId" name="locationId" type="text">
+                <div class="error"></div>
+            </div>
+
+
+            <button type="submit">Update Department Information</button>
+            <button type="reset">Reset Input</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

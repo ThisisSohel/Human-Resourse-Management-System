@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Location Information</title>
+    <link rel="stylesheet" href="./OtherPage.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="form" action="locationUpdate.php" method="post">
+            <h1>Location Update</h1>
+            <div class="input-control">
+                <label for="locationId">Location Id</label>
+                <input id="locationId" name="locationId" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="sAddress">Street Address</label>
+                <input id="sAddress" name="sAddress" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="city">City Name</label>
+                <input id="city" name="city" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="counrtyId">Country ID</label>
+                <input id="counrtyId" name="counrtyId" type="text">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Update</button>
+            <button type="reset">Reset Input</button>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>

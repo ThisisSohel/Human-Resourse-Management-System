@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Job History Information</title>
+    <link rel="stylesheet" href="./OtherPage.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="jobHistpryUpdate.php" method="post">
+            <h1>Update Job History</h1>
+            <div class="input-control">
+                <label for="id">Job ID</label>
+                <input id="id" name="id" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="depId">Department ID</label>
+                <input id="depId" name="depId" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="startDate">Starting Date</label>
+                <input id="startDate" name="startDate" type="date">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="endDate">Ending Date</label>
+                <input id="endDate" name="endDate" type="date">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="empId">Employee ID</label>
+                <input id="empId" name="empId" type="text">
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Update</button>
+            <button type="reset">Reset Input</button>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
