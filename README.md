@@ -18,7 +18,8 @@ HTML, CSS, PHP, MySQL.
 
 Your Role：Frontend + 
 Backend Developer.
-Name of Part：Developing 
+
+Name of My Part：Developing 
 Frontend + Backend, 
 validating form (Client and 
 Server site), determining the 
